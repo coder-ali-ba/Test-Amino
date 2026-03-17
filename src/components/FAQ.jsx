@@ -25,7 +25,7 @@ export default function FAQ() {
   const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
 
   return (
-    <div className="min-h-screen bg-[#eef1f8] px-4 py-14 font-sans mt-10">
+    <div className="min-h-screen  px-4 py-14 font-sans mt-10">
       <div className="text-center mb-10">
         <span className="inline-block bg-[#1d0f9b] text-white text-2xl font-medium px-5 py-2 rounded-full mb-4 tracking-wide">
           Frequently Asked Questions
